@@ -7,15 +7,15 @@ import { useState } from "react";
 const CATEGORIES = [
   {
     id: 1,
-    name: "herbivora",
+    name: "Herbivora",
   },
   {
     id: 2,
-    name: "omnivora",
+    name: "Omnivora",
   },
   {
     id: 3,
-    name: "karnivora",
+    name: "Karnivora",
   },
 ];
 
@@ -60,7 +60,7 @@ const DATA = [
     id: "7",
     category_id: "3",
     name: "Pinguin",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/b/be/Pygoscelis_papua.jpg",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxgpDT3UQecCY8ifpNz_Ic3Yyjl_5qVITYIw&s",
   },
   {
     id: "8",
@@ -72,7 +72,7 @@ const DATA = [
     id: "9",
     category_id: "3",
     name: "Hiu",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Corl0207_%2828225976491%29.jpg",
+    logo: "https://awsimages.detik.net.id/community/media/visual/2019/07/26/814e9e3c-cf07-40e8-812c-55f5ab9025e1.jpeg?w=1200",
   },
   { 
     id: "10",
@@ -83,8 +83,8 @@ const DATA = [
   { 
     id: "11",
     category_id: "2",
-    name: "Homo Sapiens",
-    logo: "https://upload.wikimedia.org/wikipedia/id/9/9c/George_Floyd.png",
+    name: "Orang Utan",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJSm2faPkKdIDQbacXYynrGmC0OyGpFiX5yXxU63qYqf9pCKp",
   },
   { 
     id: "12",
@@ -138,7 +138,7 @@ const DATA = [
     id: "20",
     category_id: "1",
     name: "Badak Jawa",
-    logo: "https://cdn-green.katadata.co.id/media/images/2023/ilustrasi_badak_jawa_2024_06_02_11_35_05.jpg",
+    logo: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDjsF9IvbogtcAQIN9I6_XYq137cmPICSUnkjQARme1c2H8Ccq",
   },
 ];
 

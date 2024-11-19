@@ -51,7 +51,7 @@ const DATA = [
         id: "7",
         category_id: "3",
         name: "Pinguin",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/b/be/Pygoscelis_papua.jpg",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxgpDT3UQecCY8ifpNz_Ic3Yyjl_5qVITYIw&s",
         text: "Penguin (Spheniscidae) adalah burung laut yang tidak bisa terbang, terkenal dengan kemampuan berenangnya yang luar biasa. Mereka memiliki tubuh tegak dengan bulu tebal yang melindungi mereka dari suhu ekstrem di habitatnya, yang sebagian besar berada di Antartika atau daerah beriklim dingin. Pinguin menggunakan sayapnya sebagai sirip untuk bergerak cepat di bawah air, berburu ikan, cumi-cumi, dan krill. Di darat, pinguin bergerak dengan cara berjalan tegak atau meluncur di atas perut mereka. Mereka juga dikenal karena tingkah lakunya yang sosial, hidup dalam koloni besar, dan merawat anak-anak mereka dengan kasih sayang.",
       },
       {
@@ -65,7 +65,7 @@ const DATA = [
         id: "9",
         category_id: "3",
         name: "Hiu",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Corl0207_%2828225976491%29.jpg",
+        logo: "https://awsimages.detik.net.id/community/media/visual/2019/07/26/814e9e3c-cf07-40e8-812c-55f5ab9025e1.jpeg?w=1200",
         text: "Hiu (seluruh keluarga Carcharhinidae dan Lamnidae) adalah predator laut dengan tubuh ramping dan gigi tajam. Mereka memiliki indera yang sangat peka, memungkinkan mereka mendeteksi mangsanya. Hiu penting untuk keseimbangan ekosistem laut, meskipun sebagian besar tidak berbahaya bagi manusia.",
       },
       { 
@@ -78,9 +78,9 @@ const DATA = [
       { 
         id: "11",
         category_id: "2",
-        name: "Homo Sapiens",
-        logo: "https://upload.wikimedia.org/wikipedia/id/9/9c/George_Floyd.png",
-        text: "Homo sapiens, atau manusia, adalah spesies primata yang dikenal karena kemampuan berpikir, berkomunikasi, dan beradaptasi. Dengan otak besar dan kecerdasan tinggi, manusia mampu menciptakan bahasa, alat, teknologi, serta membangun budaya dan peradaban kompleks. Secara fisik, manusia memiliki postur tubuh tegak, tangan yang terampil, dan kemampuan berjalan jauh. Mereka hidup di hampir semua ekosistem di dunia, menjadikan mereka spesies yang sangat adaptif dan dominan di planet ini.",
+        name: "Orang Utan",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJSm2faPkKdIDQbacXYynrGmC0OyGpFiX5yXxU63qYqf9pCKp",
+        text: "Orang utan atau mawas adalah kera besar yang berasal dari hutan hujan Indonesia dan Malaysia. Sekarang hewan ini hanya ditemukan di sebagian Kalimantan dan Sumatra, tetapi selama era Pleistosen, mereka tersebar di seluruh Asia Tenggara dan Tiongkok Selatan. ",
       },
       { 
         id: "12",
@@ -142,7 +142,7 @@ const DATA = [
         id: "20",
         category_id: "1",
         name: "Badak Jawa",
-        logo: "https://cdn-green.katadata.co.id/media/images/2023/ilustrasi_badak_jawa_2024_06_02_11_35_05.jpg",
+        logo: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQDjsF9IvbogtcAQIN9I6_XYq137cmPICSUnkjQARme1c2H8Ccq",
         text: "Badak Jawa, dikenal juga sebagai badak Sunda atau badak bercula satu kecil, adalah anggota terancam kritis dari genus Rhinoceros, dari keluarga badak, Rhinocerotidae, dan salah satu dari lima spesies badak yang masih ada di kawasan Asia Selatan dan Afrika. "
       },
   ];
