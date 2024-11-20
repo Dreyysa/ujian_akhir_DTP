@@ -19,7 +19,7 @@ export default function AboutAppScreen() {
 
       {/* App Description */}
       <Text className="text-lg text-gray-600 leading-7 mb-6">
-        Berisi hewan-hewan yang ada di lutung zoo
+         "Lutung Zoo: Jelajahi Kehidupan Satwa, Dekatkan Alam di Genggaman!"
       </Text>
 
       {/* Features Section */}
