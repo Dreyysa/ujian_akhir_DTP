@@ -142,26 +142,33 @@ const DATA = [
   },
 ];
 
-
 export default function HomeScreen() {
   const [hewans, setHewans] = useState(DATA);
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   const filterHewans = (category) => {
-    setSelectedCategory(category);
-    if (category) {
+    if (selectedCategory === category) {
+      // If the selected category is pressed again, reset the filter
+      setSelectedCategory(null);
+      setHewans(DATA); // Reset to show all data
+    } else {
+      // Apply the filter for the new category
+      setSelectedCategory(category);
       const filteredHewans = DATA.filter((hewan) => hewan.category_id === category.toString());
       setHewans(filteredHewans);
-    } else {
-      setHewans(DATA); // Show all if no category is selected
     }
   };
+
   return (
     <SafeAreaView className="flex-1 bg-gray-100">
       {/* Kategori */}
-      <View>
-        <View className="justify-center items-center bg-hijau-boomer mx-4 h-12 w-11/12">
-          <Text className="text-white text-3xl font-bold">Lutung Zoo</Text>
+      <View className="justify-center items-center">
+        <View className="w-full">
+          <Image 
+            className="w-full h-48"
+            source={require('../../assets/images/Lutung Zoo.png')}
+            resizeMode="cover"
+          />
         </View>
         <FlatList
           data={CATEGORIES}

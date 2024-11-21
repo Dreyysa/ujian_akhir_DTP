@@ -3,6 +3,7 @@ import React from "react";
 import { useLocalSearchParams } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import HewanCard from "../../components/HewanCard";
+import { ImageBackground } from 'react-native';
 
 const DATA = [
     {
@@ -156,17 +157,15 @@ const HewanDetail = () => {
     console.log(selectedHewan);
   
     return (
-      <SafeAreaView
-        style={{
-          backgroundColor: "white",
-          flex: 1,
-          // flexDirection: "row",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <ImageBackground
+      source={require('../../assets/images/Desain tanpa judul.png')} // Adjust the path to your image
+      className="flex-1 justify-center items-center" // NativeWind classes for styling
+      resizeMode="cover" // Adjust how the image is displayed
+    >
+      <SafeAreaView className="flex-1 justify-center items-center">
         <HewanCard item={selectedHewan[0]} />
       </SafeAreaView>
+    </ImageBackground>
     );
   };
   
